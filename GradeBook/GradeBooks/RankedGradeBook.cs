@@ -1,5 +1,6 @@
 ﻿using System;
 using GradeBook.Enums;
+using GradeBook.GradeBooks;
 
 namespace GradeBook.GradeBooks
 {
@@ -22,15 +23,15 @@ namespace GradeBook.GradeBooks
 
             int percent = (100 * IleLepiej) / Students.Count;
 
-            if (percent < 20 && percent <39 )
+            if (percent < 20 && percent <40 )
             {
                 return 'A';
             }
-            else if (percent < 40 && percent < 59)
+            else if (percent < 40 && percent < 60)
             {
                 return 'B';
             }
-            else if(percent < 60 && percent <79)
+            else if(percent < 60 && percent <80)
             {
                 return 'C';
             }
